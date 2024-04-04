@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curso-angular';
+  dataSource: any;
+  displayedColumns: string[] = ['id', 'type', 'label'];
 
   submitForm() {
     console.log('BOTONAZO!');
